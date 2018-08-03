@@ -1,0 +1,64 @@
+body{
+	background: linear-gradient( to right,lightblue, white);
+}
+
+#container{
+	width: 360px;
+	margin: 100px auto 0 auto;
+}
+
+.selected{
+	text-decoration: line-through;
+	color: gray;
+}
+
+h1{
+	margin:0px;
+	padding-left:10px;
+	font-size: 125%;
+	text-transform: uppercase;
+	height:35px;
+	background: blue;
+	line-height: 35px;
+	color: white;
+}
+
+ul {
+
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+
+ul li{
+	height:35px;
+	padding-left:10px;
+	line-height:35px;
+	background: lightgrey;
+
+}
+
+li:nth-of-type(2n){
+	background:white;
+
+}
+
+
+
+input{
+	border-style: none;
+	background-color:white;
+	margin:0px;
+	padding-left:10px;
+	width:350px;
+	height:35px;
+}
+
+span i {
+	padding:9.5px 10px;
+	color:white;
+	background: red;
+	
+}
